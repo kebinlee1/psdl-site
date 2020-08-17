@@ -1,0 +1,86 @@
+.jumbotron {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+    color : white;
+    /* height: 850px; */
+    font-size : 30px;
+}
+
+.jumbotron h1 {
+    font-size: 80px;
+}
+
+.bg-cover {
+    background-image: url('/images/bgimg.jpg');
+    background-size : cover;
+}
+.bg-cover1 {
+    background-image: url('/images/about.jpg');
+    background-size : cover;
+}
+
+.bg-tech {
+    background-image: url('/images/about.jpg');
+    /* max-width: 100%; */
+    background-size : cover;
+}
+
+
+
+.home .header {  /* background-image: ''url(/image-header/dogs.jpg)''; */
+  background-position: 0% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white ;
+  padding: 100px 25px;  
+  text-align: center;
+}
+.home .title {font-weight: bold; font-size: 5rem}
+
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;	
+    animation-duration: 1s;	
+    -webkit-animation-duration: 1s;
+    visibility: visible;			
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }	
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}

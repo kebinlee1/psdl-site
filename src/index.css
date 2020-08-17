@@ -1,0 +1,119 @@
+/**
+  define Global style for 
+    Fonts: Roboto, Gothic
+    font-size 1.2rem, 1.5rem 1.6rem
+    weight 
+    background-color: 
+      navbar:       steelblue   #4682b4 rgb(70,130,180)
+      footer:                   #315a7d rgb(49,90,125)
+      section bar:  skyblue     #87ceeb rgb(135,206,235)
+    text color:                 #444444
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;500;700&family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,500&display=swap');
+
+ body {
+   margin: 0;
+   padding: 0;
+   /* font-family: "Open Sans", sans-serif;
+   font-family: Lato, Verdana, sans-serif; */
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Gothic A1', sans-serif;
+   font-size: 1.1rem;
+   font-weight: 300;
+   color: #333;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ }
+ 
+ select.form-control,
+ textarea.form-control,
+ input[type=file] {
+  width : 25%;
+  margin : 0 auto;
+ }
+ /* input[type=email], select{
+  width : 25%;
+  margin : 0 auto;
+   
+ }
+ input[type =password],select{
+   width : 25%;
+   margin : 0 auto;
+   
+ }
+
+ button[type=submit]{
+   width : 25%;
+   margin : 0 auto;
+  
+ } */
+
+ 
+ h1 {padding: 30px 0; text-align: center;}
+ h2 {padding-top: 20px; padding-bottom: 20px;}
+ 
+ h1, h2, h3, h4 {font-weight: 500;} 
+ h5 {font-weight: 300}
+ 
+ h1 {font-size: 3.2rem;}
+ h2 {font-size: 2.4rem;}
+ h3 {font-size: 2.0rem; text-align: center;}
+ h4 {font-size: 1.6rem;}
+ h5 {font-size: 1.4rem;}
+
+.page .header {
+   margin-top: 10px;
+   /* background-image: url(/image-header/dogs.jpg); */
+   background-position: 0% 50%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white ;
+   padding: 30px 25px ;
+   text-align: center
+}  
+ 
+.page .content {margin-top: 10px}
+
+.card-title { font-weight: 600}
+
+.ver-mid-wrap {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.page section {margin-top: 50px}
+
+section .title {
+  text-align: center;
+  /* color: blue; */
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 0 10px;
+  margin-top: 50px
+}
+
+.faq-item {margin-top: 3rem}
+.faq-q, 
+.faq-a 
+{
+  padding: 0 2rem;
+  text-indent: -2rem;  
+}
+
+p.faq-q::first-letter,
+p.faq-a::first-letter
+{
+  font-size: 2rem;
+  color: #8A2BE2;
+}
+
+.faq-item > ul {
+  margin: 1rem 2rem
+}
+table ul {margin: 0}

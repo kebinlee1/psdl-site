@@ -1,0 +1,96 @@
+/**
+ * define App.js style for 
+ *  Navigation tab,
+ *  Footer
+ * 
+ */
+.navbar {
+  padding : 0px !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* .nav-bg-blue {
+  background-color: steelblue !important; 
+}
+ */
+
+
+.nav-bg-white {
+  background-color: white !important; 
+}
+
+
+
+/* background-color: white !important;  */
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+}
+.navbar-brand a:hover {
+  color: aliceblue;  
+  text-decoration: none;
+}
+
+/*
+.navbar-nav a, .navbar-text {
+  padding: 20px !important;
+  color: white !important;
+}
+
+.navbar-nav a:hover {
+  color: rgb(241, 184, 163) !important;  
+}
+
+.dropdown-menu a {  
+  padding: 5px 10px !important;
+  color: steelblue !important
+} */
+
+.nav-link {
+  padding: 20px !important;
+  font-weight: 400;
+  /* color: rgba(255, 255, 255, 0.8) !important; */
+  color: black !important;
+
+
+}
+
+.nav-link:hover, .nav-link.active {
+  /* color: skyblue !important; */
+    color : white !important;
+    background-color: rgb(15,43,44);
+}
+
+.dropdown-item {
+  color: gray !important;
+}
+
+.dropdown-item:hover, .dropdown-item.active {
+  color: skyblue !important;
+
+  background-color: white !important;
+
+  /* color: white;
+  background-color: orange !important; */
+
+}
+
+.footer {
+  width: 100%;
+  padding: 60px 20%;
+  margin: 10px 0 0;
+  /* background-color: #333; */
+  background-color: #2d2d30;
+  ;
+  color: #ddd;  
+}
+
+@media screen and (min-width: 960px) {  
+  /* .navbar {
+    padding: .5rem 10rem !important;
+  } */
+}

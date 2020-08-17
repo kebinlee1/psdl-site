@@ -1,0 +1,41 @@
+hr {
+	border: 0;
+	/* height: 2px;
+	border-bottom: 2px solid; */
+	height: 1px;
+	border-bottom: 1px solid;
+}
+
+h1 {	
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: dodgerblue /*by kebin*/
+}
+
+h2 {
+  padding-top: 30px;
+  color: deepskyblue	
+}
+
+h3 {
+	color: darkslateblue
+}
+
+h4 {
+  color: steelblue;
+  font-size: 16px;
+}
+
+a {
+  color: rgb(173, 175, 197) 
+}
+
+table {
+  width: 100%
+}
+
+th {
+  color: red
+}
